@@ -1,4 +1,3 @@
-
 ###URL check###
 
 url_checker() {
@@ -11,24 +10,25 @@ url_checker() {
 }
 
 ###banner###
-
-echo -e "\e[1;31m                         ████████╗██╗   ██╗███████╗     \e[0m"
-echo -e "\e[1;31m                         ╚══██╔══╝██║   ██║██╔════╝     \e[0m"
-echo -e "\e[1;31m                            ██║   ██║   ██║███████╗     \e[0m"
-echo -e "\e[1;31m                            ██║   ██║   ██║╚════██║     \e[0m"
-echo -e "\e[1;31m                            ██║   ╚██████╔╝███████║     \e[0m"
-echo -e "\e[1;31m                            ╚═╝    ╚═════╝ ╚══════╝     \e[0m"
-echo -e "\e[1;31m                                                        \e[0m"
-echo -e "\e[1;31m     _   _                   _      _            _            \e[0m"
-echo -e "\e[1;31m    | |_| |_  ___   _  _ _ _| |  __| |_  ___ _ _| |_ ___ _ _  \e[0m"
-echo -e "\e[1;31m    |  _| ' \/ -_) | || | '_| | (_-< ' \/ _ \ '_|  _/ -_) '_| \e[0m"
-echo -e "\e[1;31m     \__|_||_\___|  \_,_|_| |_| /__/_||_\___/_|  \__\___|_|   \e[0m"
-echo -e "\e[1;31m                                                              \e[0m"
-echo -e "\e[1;31m                               v0.1                           \e[0m"
-echo -e "\e[1;31m                   the url shorter MADE By NOEN               \e[0m"
-echo -e "\e[1;31m                                                              \e[0m"
-echo -e "\e[1;31m\e[0m"
-echo -e "\e[1;31m\e[0m"
+echo -e "\e[1;32m                                                        \e[0m"
+echo -e "\e[1;32m                                                        \e[0m"
+echo -e "\e[1;32m                         ████████╗██╗   ██╗███████╗     \e[0m"
+echo -e "\e[1;32m                         ╚══██╔══╝██║   ██║██╔════╝     \e[0m"
+echo -e "\e[1;32m                            ██║   ██║   ██║███████╗     \e[0m"
+echo -e "\e[1;32m                            ██║   ██║   ██║╚════██║     \e[0m"
+echo -e "\e[1;32m                            ██║   ╚██████╔╝███████║     \e[0m"
+echo -e "\e[1;32m                            ╚═╝    ╚═════╝ ╚══════╝     \e[0m"
+echo -e "\e[1;32m                                                        \e[0m"
+echo -e "\e[1;32m     _   _                   _      _            _            \e[0m"
+echo -e "\e[1;32m    | |_| |_  ___   _  _ _ _| |  __| |_  ___ _ _| |_ ___ _ _  \e[0m"
+echo -e "\e[1;32m    |  _| ' \/ -_) | || | '_| | (_-< ' \/ _ \ '_|  _/ -_) '_| \e[0m"
+echo -e "\e[1;32m     \__|_||_\___|  \_,_|_| |_| /__/_||_\___/_|  \__\___|_|   \e[0m"
+echo -e "\e[1;32m                                                              \e[0m"
+echo -e "\e[1;32m                                 v0.1                           \e[0m"
+echo -e "\e[1;32m                   the url shorter MADE By NOEN               \e[0m"
+echo -e "\e[1;32m                                                              \e[0m"
+echo -e "\e[1;32m\e[0m"
+echo -e "\e[1;32m\e[0m"
 echo -n "Enter Phishing URL here (with http or https): 
 >>>"
 read phish
@@ -38,7 +38,7 @@ echo "Processing and Modifing Phishing URL ^-^"
 echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
-echo -e "\n\e[1;31m VvV Hiding Domain VvV\e[0m"
+echo -e "\n\e[1;32m VvV Hiding Domain VvV\e[0m"
 echo 'Domain to mask the Phishing URL (with http or https), ex: https://google.com, http://facebook.com :'
 echo -en "\e[31m>>\e[0m "
 read mask
